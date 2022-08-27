@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="commons-fileupload-1.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../jar包/commons-fileupload-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../jar包/commons-io-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../jar包/fastjson-1.2.8.sec04.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../jar包/mysql-connector-java-8.0.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../jar包/springfox-swagger2-2.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../jar包/webp-imageio-0.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

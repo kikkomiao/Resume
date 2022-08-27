@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	background-image: url(../img/1.jpg);
+	background-size: 100% 110%;
+	height: 100%;
+	font-family: 微软雅黑;
+	background-color: #fff;
+}
+
+.login{
+	position: absolute;
+	background-color: rgba(255,255,255,.6);
+	top: 25%;
+	left: 60%;
+	right: 10%;
+	bottom: 25%;
+	border-radius: 5px;
+}
+.title,.u,.p,.l,.s,.tips{
+	position: absolute;
+	/* border: 1px solid red; */
+	width: 100%;
+}
+
+button{
+	background-color: #467FE6;
+	height: 35px;
+	width: 40%;
+	border: 0px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+select{
+	width: 80%;
+	height: 35px;
+	border-radius: 4px;
+	border: 1px solid #467FE6;
+}
+
+
+.title{
+	top: 0%;
+	bottom: 60%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.u{
+	top: 30%;
+	bottom: 60%;
+	left: 10%;
+}
+.p{
+	top:50%;
+	bottom: 40%;
+	left: 10%;
+}
+
+.s{
+	top:55%;
+	bottom:20%;
+	left: 10%;
+}
+
+.l{
+	top: 75%;
+	bottom: 20%;
+	left: 10%;
+}
+
+
+.tips{
+	top: 90%;
+	font-size: 14px;
+	color: red;
+	text-align: center;
+}
+input{
+	height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	width: 80%;
+	padding-left: 30px;
+	box-sizing: border-box;
+
+}
+.userphone{
+	background: url(../img/userphone.png) no-repeat left;
+	background-color: #F2F2FA;
+}
+.userpwd{
+	background: url(../img/pwd.png) no-repeat left;
+	background-color: #F2F2FA;
+
+}

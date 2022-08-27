@@ -1,0 +1,133 @@
+html,body{
+	background-color: #fff;
+}
+
+body{
+	background-color: #fff;
+}
+
+.condition{
+	background-color: #FFFFFF;
+	border: 1px solid #F0F0F0;
+	height: 20px;
+	margin-top: 10px;
+	padding: 10px 5px;
+	color: #666666;
+}
+
+.condition input{
+	height: 18px;
+	border: 1px solid #E0E0E0;
+	border-radius: 4px;
+}
+
+.condition button{
+	margin-right: 10px;
+	background-color: #467FE6;
+	color: #FFF;
+	padding: 4px 14px;
+	font-size: 14px;
+	border: 0px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.condition button:hover{
+	background-color: #0064CD;
+}
+
+.tablelist{
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+}
+
+.tablelist td,th{
+	height: 30px;
+	border: 1px solid #e0e0e0;
+	width:10000px;
+}
+
+.tablelist th{
+	background-color: #F8F8F8;
+}
+
+.tablelist td{
+	text-align: center;
+}
+
+.tablelist tr:nth-child(odd){
+	background-color: #FFF;
+}
+
+.tablelist tr:nth-child(even){
+	background-color: #F0F0F0;
+}
+
+.tablelist td:hover{
+	background-color: #F2F7FF;
+}
+
+.tablelist .see{
+	color: #FFA500;
+}
+
+.tablelist .edit{
+	color: #005F9B;
+}
+.tablelist .remove{
+	color: crimson;
+}
+
+.tablelist .download{
+	color: #90EE90;
+
+}
+
+.tablelist .edit,.tablelist .remove,.tablelist .see,.tablelist .download{
+	background-color: transparent;
+	border: 1px solid transparent;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.page{
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	border-left: 1px solid #E0E0E0;
+
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	height: 15px;
+
+	text-align: center;
+}
+
+.page button{
+	margin-right: 10px;
+	background-color: #467FE6;
+	color: #FFF;
+	padding: 2px 5px;
+	font-size: 14px;
+	border: 0px;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+
+.page button:hover{
+	background-color: #0064CD;
+}
+
+.page td{
+	padding-left: 20px;
+}
+
+.page-no{
+	width: 40px;
+	/* border-radius: 4px; */
+	border: 1px solid #E0E0E0;
+}

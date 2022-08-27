@@ -1,0 +1,4 @@
+# 项目排除路径
+/build/classes/
+/classes/
+/node_modules/
